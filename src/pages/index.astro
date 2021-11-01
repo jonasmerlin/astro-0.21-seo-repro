@@ -2,6 +2,7 @@
 // Component Imports
 import Tour from '../components/Tour.astro';
 // You can import components from any supported Framework here!
+import { SEO } from 'astro-seo'
 
 
 // Component Script:
@@ -32,6 +33,8 @@ let title = 'My Astro Site';
             max-width: min(100%, 68ch);
         }
     </style>
+
+    <SEO />
 </head>
 <body>
     <main>
